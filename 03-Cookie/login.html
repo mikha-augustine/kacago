@@ -1,0 +1,10 @@
+{{ define "login" }}
+<div align="center">
+    <h1>Login Page</h1>
+    <form method="post" action="/login-ajax">
+        Username: <input type="text" name="username"/><br/><br/>
+        Password: <input type="password" name="password"/><br/><br/>
+        <input type="submit"><br/><br/>
+    </form>
+</div>
+{{ end }}
